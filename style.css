@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'SF Pro Display';
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block-rounded;
+}
+
+.anim::before{
+    color: violet;
+    content: "Freelancer";
+    animation: animate 15s infinite;
+}
+
+@keyframes animate {
+    0% { content: "Freelance Video Editor"}
+    25% { content: "Freelance Graphics Designer" }
+    50% { content: "Freelance Photographer"}
+    75% { content: "Aspiring Web Developer"}
+    100% { content: "Aspiring Mobile Developer"}
+}
